@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calc</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class=calc>
+        <div class="output">
+            <div data-previous-operand class="previous-operand"></div>
+            <div data-current-operand class="current-operand"></div>
+        </div>
+        <table>
+            <tr>
+                <td><button data-number>7</button></td>
+                <td><button data-number>8</button></td>
+                <td><button data-number>9</button></td>
+                <td><button data-operator>÷</button></td>
+                <td><button data-delete>DEL</button></td>
+            </tr>
+            <tr>
+                <td><button data-number>4</button></td>
+                <td><button data-number>5</button></td>
+                <td><button data-number>6</button></td>
+                <td><button data-operator>*</button></td>
+                <td><button data-clear> AC </button></td>
+            </tr>
+            <tr>
+                <td><button data-number>1</button></td>
+                <td><button data-number>2</button></td>
+                <td><button data-number>3</button></td>
+                <td><button data-operator>-</button></td>
+                <td rowspan="2"><button data-operator class="plus">+</button></td>
+            </tr>
+            <tr>
+                <td><button>.</button></td>
+                <td><button data-number>0</button></td>
+                <td colspan="2"><button data-equals class="equal">=</button></td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
